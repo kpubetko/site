@@ -57,30 +57,30 @@ header>div#logo>a>span {
   font-family: "Oswald", sans-serif;
 }
 header>div#logo>a>img {
-  width: 50px;
-  height: 33px;
+  width: 60;
+  height: 40px;
 }
 header > div#home > a > .btn > img,
 header > div#gyms > a > .btn > img,
 header > div#nutrition > a > .btn > img {
-    width: 56px;
-    height: 44px;
+    width: 76px;
+    height: 60px;
 }
 header>div#home>a>.btn>img {
   position: absolute;
   top: 4;
-  left: 20%;
+  left: 10%;
   transform: translateX(-50%);
 }
 header>div#gyms>a>.btn>img {
   position: absolute;
   top: 4;
-  left: 35%;
+  left: 15%;
   transform: translateX(-50%);
 }
 header>div#nutrition>a>.btn>img {
   position: absolute;
   top: 4;
-  left: 50%;
+  left: 20%;
   transform: translateX(-50%);
 }
