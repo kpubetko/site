@@ -16,27 +16,31 @@
   <header>
     <div id ="logo">
       <a href="http://localhost/site" title="На главную страницу">
+        <img src="img/logo.png" title="TUSUR GYM" alt="TUSUR GYM"></br>
         <span>TUSUR GYM</span>
       </a>
     </div>
-    <div id ="home">
-      <a href="http://localhost/site" title="Домой">
-        <div id="btn">
-          <img src="img/home.png" title="Домой" alt="Домой">
-      </a>
+    <div id="home">
+        <a href="http://localhost/site" title="Домой">
+            <div class="btn">
+                <img src="img/home.png" title="Домой" alt="Домой">
+            </div>
+        </a>
     </div>
-    <div id ="gyms">
-      <a href="" title="Залы">
-        <div id="btn">
-          <img src="img/gym.png" title="Залы" alt="Залы">
-      </a>
+    <div id="gyms">
+        <a href="" title="Залы">
+            <div class="btn">
+                <img src="img/gym.png" title="Залы" alt="Залы">
+            </div>
+        </a>
     </div>
-    <div id ="nutrition">
-      <a href="" title="Питание">
-        <div id="btn">
-          <img src="img/food.png" title="Питание" alt="Питание">
-      </a>
+    <div id="nutrition">
+        <a href="" title="Питание">
+            <div class="btn">
+                <img src="img/food.png" title="Питание" alt="Питание">
+            </div>
+        </a>
     </div>
-  </header>
+</header>
 </body>
 </html>

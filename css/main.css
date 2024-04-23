@@ -33,6 +33,7 @@ img {
   max-width: 100%;
   height: auto;
   width: auto\9; /* ie8 */
+  
 }
 
 hr {
@@ -52,22 +53,16 @@ header {
 }
 
 header>div#logo>a>span {
-  font-size: 0.85em;
+  font-size: 1.1em;
   font-family: "Oswald", sans-serif;
 }
 header>div#logo>a>img {
   width: 76px;
   height: 50px;
 }
-header>div#home>#btn>a>img {
-  width: 63px;
-  height: 50px;
-}
-header>div#gyms>#btn>a>img {
-  width: 63px;
-  height: 50px;
-}
-header>div#nutrition>#btn>a>img {
-  width: 63px;
-  height: 50px;
+header > div#home > a > .btn > img,
+header > div#gyms > a > .btn > img,
+header > div#nutrition > a > .btn > img {
+    width: 63px;
+    height: 50px;
 }
