@@ -20,21 +20,21 @@
         <span>TUSUR GYM</span>
       </a>
     </div>
-    <div id="home">
+    <div id="home" class="btn-container">
         <a href="http://localhost/site" title="Домой">
             <div class="btn">
                 <img src="img/home.png" title="Домой" alt="Домой">
             </div>
         </a>
     </div>
-    <div id="gyms">
+    <div id="gyms" class="btn-container">
         <a href="" title="Залы">
             <div class="btn">
                 <img src="img/gym.png" title="Залы" alt="Залы">
             </div>
         </a>
     </div>
-    <div id="nutrition">
+    <div id="nutrition" class="btn-container">
         <a href="" title="Питание">
             <div class="btn">
                 <img src="img/food.png" title="Питание" alt="Питание">

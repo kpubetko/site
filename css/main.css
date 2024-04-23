@@ -53,16 +53,34 @@ header {
 }
 
 header>div#logo>a>span {
-  font-size: 1.1em;
+  font-size: 0.8em;
   font-family: "Oswald", sans-serif;
 }
 header>div#logo>a>img {
-  width: 76px;
-  height: 50px;
+  width: 50px;
+  height: 33px;
 }
 header > div#home > a > .btn > img,
 header > div#gyms > a > .btn > img,
 header > div#nutrition > a > .btn > img {
-    width: 63px;
-    height: 50px;
+    width: 56px;
+    height: 44px;
+}
+header>div#home>a>.btn>img {
+  position: absolute;
+  top: 4;
+  left: 20%;
+  transform: translateX(-50%);
+}
+header>div#gyms>a>.btn>img {
+  position: absolute;
+  top: 4;
+  left: 35%;
+  transform: translateX(-50%);
+}
+header>div#nutrition>a>.btn>img {
+  position: absolute;
+  top: 4;
+  left: 50%;
+  transform: translateX(-50%);
 }
