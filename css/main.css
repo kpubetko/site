@@ -102,9 +102,11 @@ header>div#nutrition>a>.btn>img {
   transform: translateX(-50%);
 }
 div#temp>img { 
-
+  
   width: 500px;
   height: 400px;
+  max-width: 500%;
+  max-height: 500%;
   
 }
 #blockShoulder {
@@ -123,9 +125,29 @@ div#temp>img {
   width: 30px;
   height: 30px;
   border-radius: 100%;
-  background: red;
+  
   opacity: 50%;  
   top: 104px;
+  left: 530px;
+}
+#where_home2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  
+  opacity: 50%;  
+  top: 164px;
+  left: 530px;
+}
+#where_home3 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  
+  opacity: 50%;  
+  top: 224px;
   left: 530px;
 }
 #blockShoulder2 {
@@ -299,6 +321,17 @@ div#temp>img {
   opacity: 50%;  
   top: 176px;
   left: 367.2px;
+}
+
+#abdominals{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;  
+  background: red;
+  opacity: 50%;  
+  top: 234px;
+  left: 114px;
 }
 #frame{  
   position: absolute;

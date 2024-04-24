@@ -124,12 +124,34 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('tempImage').src = 'img/Without.svg';
     });
 
+    document.getElementById('abdominals').addEventListener('mouseover', function() {
+        document.getElementById('tempImage').src = 'img/abdominals.svg';
+    });
+    document.getElementById('abdominals').addEventListener('mouseout', function() {
+        document.getElementById('tempImage').src = 'img/Without.svg';
+    });
+
     document.getElementById('where_home').addEventListener('mouseover', function() {
         document.getElementById('where1Img').src = 'img/EquipmentHome_Select.svg';
     });
     document.getElementById('where_home').addEventListener('mouseout', function() {
         document.getElementById('where1Img').src = 'img/EquipmentHome.svg';
     });
+
+    document.getElementById('where_home2').addEventListener('mouseover', function() {
+        document.getElementById('where2Img').src = 'img/EquipmentOutside_Select.svg';
+    });
+    document.getElementById('where_home2').addEventListener('mouseout', function() {
+        document.getElementById('where2Img').src = 'img/EquipmentOutside.svg';
+    });
+
+    document.getElementById('where_home3').addEventListener('mouseover', function() {
+        document.getElementById('where3Img').src = 'img/EquipmentGym_Select.svg';
+    });
+    document.getElementById('where_home3').addEventListener('mouseout', function() {
+        document.getElementById('where3Img').src = 'img/EquipmentGym.svg';
+    });
+    
 });
 function shoulderLink() {
     window.location.href = "https://www.iphones.ru/iNotes/editrial-best-shoulder-workout"; // замените ссылку на нужную вам
