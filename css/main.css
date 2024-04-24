@@ -101,8 +101,47 @@ header>div#nutrition>a>.btn>img {
   border-radius: 15%;
   transform: translateX(-50%);
 }
-div#temp>a>img {
-  
+div#temp>img { 
+
   width: 500px;
   height: 400px;
+  
+}
+#blockShoulder {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: red;
+  opacity: 50%;  
+  top: 151.5px;
+  left: 80.8px;
+}
+#blockShoulder2 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: red;
+  opacity: 50%;  
+  top: 151.5px;
+  left: 327.8px;
+}
+#frame{  
+  position: absolute;
+  top: 70px;
+  width: 600px;
+  height: 400px;
+  background: rgba(76, 89, 73, 0.13);
+  border-radius: 10%; 
+}
+#frame::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 100px; /* Отступ справа */
+  width: 5px; /* Ширина полоски */
+  height: 100%;
+  background: #000000b2; /* Цвет полоски */
+  
 }
