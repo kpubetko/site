@@ -48,16 +48,15 @@ hr {
 header {
   float: left;
   background-color: rgba(54, 62, 52, 0.38);
-  width: 99.4%;
-  padding: 0.3%;
-}
+  width: 99.4vw; 
+  padding: 0.3vh; }
 
 header>div#logo>a>span {
   font-size: 0.8em;
   font-family: "Oswald", sans-serif;
 }
 header>div#logo>a>img {
-  width: 60;
+  width: 60px;
   height: 40px;
 }
 header > div#home > a > .btn > img,
