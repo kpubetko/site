@@ -127,6 +127,167 @@ div#temp>img {
   top: 151.5px;
   left: 327.8px;
 }
+#blockСhest{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: red;
+  opacity: 50%;  
+  top: 164px;
+  left: 102px;
+}
+#blockBiceps{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: red;
+  opacity: 50%;  
+  top: 184.5px;
+  left: 66.6px;
+}
+#blockCalves{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: red;
+  opacity: 50%;  
+  top: 376px;
+  left: 87.3px;
+}
+#blockCalves2{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: red;
+  opacity: 50%;  
+  top: 376px;
+  left: 335.7px;
+}
+#blockForearms{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: red;
+  opacity: 50%;  
+  top: 219px;
+  left: 44.4px;
+}
+#blockForearms2{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: red;
+  opacity: 50%;  
+  top: 219px;
+  left: 287.9px;
+}
+#blockGlutes{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: red;
+  opacity: 50%;  
+  top: 254px;
+  left: 352.4px;
+}
+#blockHamstrings{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;  
+  background: red;
+  opacity: 50%;  
+  top: 294px;
+  left: 341px;
+}
+#blockLats{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;  
+  background: red;
+  opacity: 50%;  
+  top: 181.7px;
+  left: 341px;
+}
+#blockLowerback{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;  
+  background: red;
+  opacity: 50%;  
+  top: 216px;
+  left: 367.2px;
+}
+#blockObliques{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: red;
+  opacity: 50%;  
+  top: 196px;
+  left: 92.8px;
+}
+#blockQuads{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: red;
+  opacity: 50%;  
+  top: 297px;
+  left: 90.1px;
+}
+#blockTraps{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: red;
+  opacity: 50%;  
+  top: 138px;
+  left: 102px;
+}
+#blockTraps2{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: red;
+  opacity: 50%;  
+  top: 140px;
+  left: 367.5px;
+}
+#blockTriceps{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;  
+  background: red;
+  opacity: 50%;  
+  top: 181.7px;
+  left: 312px;
+
+}
+#TrapsMiddleTraps{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;  
+  background: red;
+  opacity: 50%;  
+  top: 176px;
+  left: 367.2px;
+}
 #frame{  
   position: absolute;
   top: 70px;
