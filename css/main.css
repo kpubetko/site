@@ -143,5 +143,26 @@ div#temp>img {
   width: 5px; /* Ширина полоски */
   height: 100%;
   background: #000000b2; /* Цвет полоски */
-  
+}
+
+div#Where1>img { 
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 100px;
+  left: 520px;
+}
+div#Where2>img { 
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 160px;
+  left: 520px;
+}
+div#Where3>img { 
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 220px;
+  left: 520px;
 }
