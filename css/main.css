@@ -64,23 +64,39 @@ header > div#home > a > .btn > img,
 header > div#gyms > a > .btn > img,
 header > div#nutrition > a > .btn > img {
     width: 76px;
-    height: 60px;
+    height: 56.8px;
 }
-header>div#home>a>.btn>img {
+
+header > div#home > a > .btn > img:hover {
+  background-color:rgba(54, 62, 52, 0.38); /* Цвет фона при наведении */
+  transition: background-color 0.5s ease-in-out;
+}
+header > div#gyms > a > .btn > img:hover {
+  background-color:rgba(54, 62, 52, 0.38); /* Цвет фона при наведении */
+  transition: background-color 0.5s ease-in-out;
+}
+header > div#nutrition > a > .btn > img:hover {
+  background-color:rgba(54, 62, 52, 0.38); /* Цвет фона при наведении */
+  transition: background-color 0.5s ease-in-out;
+}
+header > div#home > a > .btn > img {
   position: absolute;
-  top: 4;
-  left: 10%;
+  top: 2px;
+  left: 110px;
+  border-radius: 15%;
   transform: translateX(-50%);
 }
 header>div#gyms>a>.btn>img {
   position: absolute;
-  top: 4;
-  left: 15%;
+  top: 2px;
+  left: 191px;
+  border-radius: 15%;
   transform: translateX(-50%);
 }
 header>div#nutrition>a>.btn>img {
   position: absolute;
-  top: 4;
-  left: 20%;
+  top: 2px;
+  left: 272px;
+  border-radius: 15%;
   transform: translateX(-50%);
 }
