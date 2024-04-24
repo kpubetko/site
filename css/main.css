@@ -49,7 +49,8 @@ header {
   float: left;
   background-color: rgba(54, 62, 52, 0.38);
   width: 100vw; 
-  padding: 0.3vh; 
+  padding: 0.2ch; 
+  
 }
 
 header>div#logo>a>span {
@@ -99,4 +100,9 @@ header>div#nutrition>a>.btn>img {
   left: 272px;
   border-radius: 15%;
   transform: translateX(-50%);
+}
+div#temp>a>img {
+  
+  width: 500px;
+  height: 400px;
 }

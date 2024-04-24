@@ -43,5 +43,10 @@
     </div>
 </header>
 
+<div id="temp" >
+        <a href="" title="Питание">
+            <img src="img/Without.svg" title="Питание" alt="Питание">
+        </a>
+    </div>
 </body>
 </html>
