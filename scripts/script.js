@@ -123,6 +123,13 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('TrapsMiddleTraps').addEventListener('mouseout', function() {
         document.getElementById('tempImage').src = 'img/Without.svg';
     });
+
+    document.getElementById('where_home').addEventListener('mouseover', function() {
+        document.getElementById('where1Img').src = 'img/EquipmentHome_Select.svg';
+    });
+    document.getElementById('where_home').addEventListener('mouseout', function() {
+        document.getElementById('where1Img').src = 'img/EquipmentHome.svg';
+    });
 });
 function shoulderLink() {
     window.location.href = "https://www.iphones.ru/iNotes/editrial-best-shoulder-workout"; // замените ссылку на нужную вам
